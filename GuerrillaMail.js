@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         AugmentCode自动注册
+// @name         AugmentCode自动注册（GuerrillaMail版）
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  自动完成AugmentCode的注册流程
@@ -88,7 +88,7 @@
                   gap: 8px;
               ">
                   <span style="color: #1a73e8;">📢</span>
-                  <span>关注公众号「code 未来」获取更多技术资源</span>
+                  <span>关注公众号「彩色之外」获取更多技术资源</span>
               </div>
               <div id="status-bar" style="
                   padding: 8px 12px;
@@ -241,7 +241,7 @@
 
   // 配置 - 使用 GuerrillaMail API
   const GUERRILLA_MAIL_CONFIG = {
-    apiUrl: "https://api.guerrillamail.com/ajax.php  ",
+    apiUrl: "https://api.guerrillamail.com/ajax.php",
     domains: [
       "guerrillamail.com",
       "guerrillamail.net",
