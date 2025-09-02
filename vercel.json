@@ -1,7 +1,7 @@
 {
   "functions": {
     "api/code.js": {
-      "runtime": "nodejs@20.17.0"
+      "runtime": "nodejs18.x"
     }
   },
   "rewrites": [
