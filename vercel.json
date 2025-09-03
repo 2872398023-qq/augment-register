@@ -1,9 +1,11 @@
 {
-  "functions": {
-    "api/code.js": {
-      "runtime": "nodejs18.x"
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/code.js",
+      "use": "@vercel/node@18.x"
     }
-  },
+  ],
   "rewrites": [
     {
       "source": "/api/(.*)",
